@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Simples</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo à Store Pro 🚀</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="store" src="img/store.png">
+        </div>
+        <div class="box-txt">
+            <span>A Store Pro é a solução definitiva para quem busca automação, inovação e desempenho.
+                 Criamos bots personalizados,</span>
+            <h2>💡 O que oferece?<br> Bots completo para seu servidor de FiveM é para o discord </h2>
+            <p>🚀 Por que escolher um Store Pro? 
+                🔹 Tecnologia de Ponta – Usamos as melhores ferramentas do mercado. 
+                Pronto para evoluir? Entre em contato e descubra como podemos ajudar! 
+                📩 Suporte via Discord!</p>
+            <a target="_blank" href="https://discord.gg/EgcGndJvPg"
+                class="btn-hero">Adquira agora</a>
+        </div>
+    </section>
+
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Bots para Discord </h3>
+            <p>Automação, segurança e personalização para sua comunidade</p>
+        </div>
+        <div class="box-item">
+            <h3>Bots completo para seu servidor de FiveM</h3>
+            <p>Sistema de Whitelist, Sistema de ticket completo, Sistema de sugestões, Sistema de reportar bugs, Status do Servidor, Bate ponto staff, é muito mais...</p>
+        </div>
+        <div class="box-item">
+            <h3>Sistema de Backup</h3>
+            <p>Backups realizados a cada hora.
+                Envio automático dos backups para um canal específico.
+                Armazenamento seguro dos seus backups, para o caso de perda do canal do Discord.</p>
+        </div>
+        <a target="_blank" href="https://discord.gg/EgcGndJvPg"
+            class="m-top btn-hero">Adquira agora</a>
+
+    </section>
+
+    <footer>
+        <p>2025 © Store Pro. Todos os direitos reservados.</p>
+    </footer>
+
+    <div class="Discord">
+        <a target="_blank" href="https://discord.gg/EgcGndJvPg">
+            <img width="50" src="https://sm.ign.com/t/ign_br/news/d/discord-la/discord-laying-off-17-of-its-staff_mbw7.1200.jpg">
+        </a>
+    </div>
+
+    <script>
+        //PEGAR O ELEMENTO
+        const store = document.getElementById('store');
+
+        //EVENTO QUANDO MOUSE ESTIVER POR CIMA DA IMAGEM
+        store.addEventListener('mouseover', function () {
+            store.src = "img/store2.png";
+        });
+
+        //EVENTO QUANDO MOUSE SAIR DE CIMA DA IMAGEM
+        store.addEventListener('mouseout', function () {
+            store.src = "img/store.png";
+        });
+
+    </script>
+
+</body>
+
+</html>
